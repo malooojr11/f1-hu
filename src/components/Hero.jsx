@@ -6,13 +6,12 @@ export default function Hero() {
             {/* الفيديو في الخلفية */}
             <video
                 className="absolute inset-0 w-full h-full object-cover brightness-200 contrast-125 saturate-150"
-                src="../../public/hero-text-bg.mp4"
+                src="/hero-text-bg.mp4"
                 autoPlay
                 muted
                 loop
                 playsInline
             />
-
             <div className="relative min-h-screen bg-black mix-blend-multiply flex items-center justify-center text-center px-4">
                 <motion.h1
                     initial={{ opacity: 0, y: 50 }}
